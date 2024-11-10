@@ -118,9 +118,7 @@ header{
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.card_item--activo{
-  background-color: var(--color_primario);
-}
+
 .card_item{
   max-width: 350px;
   width: 30%;
@@ -130,6 +128,9 @@ header{
   color: var(--color_secundario);
   padding: 40px 0;
   border-radius: 10px;
+}
+.card_item--activo{
+  background-color: var(--color_primario);
 }
 .card_plan{
   margin-bottom: 20px;
