@@ -142,3 +142,73 @@ header{
 .card_caracteristicas{
   margin-bottom: 25px;
 }
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+}
+.galeria img {
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.galeria img:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.Contacto{;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:center;
+  margin:40px auto;
+}
+.text-center{
+    text-align: center;
+}
+.h2{
+  width: 80%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.text-center {
+  text-align: center;
+  margin: 0 auto;
+}
+.form{
+  text-align: center;
+  margin: 0 auto;
+}
+.label {
+  display: block;
+  margin-bottom: 10px;
+  
+}
+.input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;  
+  border: 1px solid #ccc;
+}
+.botton{
+    display: inline-block;
+    background-color: var(--color_primario);
+    color: var(--color_secundario);
+    text-decoration: none;
+    font-weight: 700px;
+    padding: 16px 30px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
